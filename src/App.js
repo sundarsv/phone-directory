@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Header from './Header';
+import Header from './Header.js';
 import './App.css';
 
 class App extends Component {
@@ -7,11 +7,12 @@ class App extends Component {
     return (
       <div>
         <Header />
-        <div className="bodyContainer">
-          <button className="addButton">Add</button>
-          <div className="table">
-            <span>Name</span>
-            <span>Phone</span>
+        <div className="component-body-container">
+          <button className="custom-btn add-btn">Add</button>
+
+          <div className="grid-container heading-container">
+            <span className="grid-item name-heading">Name</span>
+            <span className="grid-item phone-heading">Phone</span>
           </div>
         </div>
       </div>
