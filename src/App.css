@@ -1,0 +1,23 @@
+.addButton {
+    background:#61BA7D;
+    color:white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 100%;
+    border: none;
+    padding: 10px 20px 10px 20px;
+}
+
+.bodyContainer {
+    margin:20px;   
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.table > span {
+    padding: 0 100px 0 0;
+    font-weight:bold;
+    text-transform: uppercase;
+}
